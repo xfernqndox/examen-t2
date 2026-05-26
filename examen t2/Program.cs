@@ -36,3 +36,19 @@ if (nota >= 12)
     aprobados++;
 }
 }
+double promedio = (double)suma / n;
+int desaprobados = n - aprobados;
+double porcentajeAprobados = (double)aprobados / n * 100;
+double porcentajeDesaprobados = (double)desaprobados / n * 100;
+System.Console.WriteLine("Reportes de notas:");
+System.Console.WriteLine("Promedio: " + promedio);
+System.Console.WriteLine("Nota máxima: " + maxima);
+System.Console.WriteLine("Nota mínima: " + minima);
+System.Console.WriteLine("Aprobados: " + aprobados);
+System.Console.WriteLine("Desaprobados: " + desaprobados);
+System.Console.WriteLine("Porcentaje de aprobados: " + porcentajeAprobados);
+System.Console.WriteLine("Porcentaje de desaprobados: " + porcentajeDesaprobados);
+if (porcentajeDesaprobados > 75)
+{
+    System.Console.WriteLine("Alerta: Más del 75% de los estudiantes han desaprobado.");
+}

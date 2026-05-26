@@ -12,3 +12,4 @@ D:\visualcode\examen t2\examen t2\obj\Debug\net10.0\refint\examen t2.dll
 D:\visualcode\examen t2\examen t2\obj\Debug\net10.0\examen t2.pdb
 D:\visualcode\examen t2\examen t2\obj\Debug\net10.0\examen t2.genruntimeconfig.cache
 D:\visualcode\examen t2\examen t2\obj\Debug\net10.0\ref\examen t2.dll
+D:\visualcode\examen t2\examen t2\obj\Debug\net10.0\examen t2.sourcelink.json
